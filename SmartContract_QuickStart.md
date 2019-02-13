@@ -81,9 +81,9 @@ NEO 私有链的部署需要至少 4 个节点才能取得共识，所以这里�
 
 ### 添加插件
 
-要使节点达成共识，需要安装 SimplePolicy 插件启用共识策略。 
+要使节点达成共识，需要安装 SimplePolicy 插件启用共识策略。特别注意的是，插件的版本号需与客户端保持一致。 
 
-1. 下载 [SimplePolicy](https://github.com/neo-project/neo-plugins/releases/download/v2.9.0/SimplePolicy.zip) 插件并解压。
+1. 下载 [Plugins](https://github.com/neo-project/neo-plugins/releases)中的SimplePolicy并解压。
 2. 将文件夹 Plugins 拷贝四份，分别放置到 4 个节点文件夹中。
 
 ### 放置钱包文件
